@@ -39,6 +39,9 @@ public class CreateJPanel extends javax.swing.JPanel {
 		MARKETING, TIC, ADMINISTRATIVO
 	};
 
+	/**
+	*Constructor de persona
+	*/
 	public CreateJPanel(Person person) {
 		initComponents();
 		this.person = person;
